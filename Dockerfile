@@ -11,7 +11,7 @@ RUN apt-get update && \
 
 # Download the installer (7.2.12)
 RUN XAMPP_DL_LINK=' \
-	https://downloadsapachefriends.global.ssl.fastly.net/7.2.12/xampp-linux-x64-7.2.12-0-installer.run?from_af=true \
+	https://liquidtelecom.dl.sourceforge.net/project/xampp/XAMPP%20Linux/7.2.12/xampp-linux-x64-7.2.12-0-installer.run \
 	' \ 
 	&& curl -L -o xampp-linux-installer.run $XAMPP_DL_LINK
 
